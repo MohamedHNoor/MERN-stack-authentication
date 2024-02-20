@@ -17,7 +17,9 @@ const userSchema = mongoose.Schema(
       required: true,
     },
   },
-  { timeStamps: true }
+  {
+    timestamps: true,
+  }
 );
 
 // bcrypt the password
