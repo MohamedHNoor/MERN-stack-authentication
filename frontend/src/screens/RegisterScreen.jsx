@@ -30,7 +30,7 @@ const RegisterScreen = () => {
         </Form.Group>
         {/* email */}
         <Form.Group className='my-2' controlId='email'>
-          <Form.Label>Email Address</Form.Label>
+          <Form.Label>Email</Form.Label>
           <Form.Control
             type='email'
             placeholder='Enter email'
@@ -40,7 +40,7 @@ const RegisterScreen = () => {
         </Form.Group>
         {/* password */}
         <Form.Group className='my-2' controlId='password'>
-          <Form.Label>Email Address</Form.Label>
+          <Form.Label>Password</Form.Label>
           <Form.Control
             type='password'
             placeholder='Enter password'
